@@ -8,7 +8,7 @@ import * as exportContent from './exportFile.js'
 // import validator from "validator/es/index.js";
 
 
-fs.appendFile('notes2.txt', 'Appending contents to file', err => {
+fs.appendFile('notes2.txt', 'Appending contents to file again', err => {
     if(err) throw err;
     console.log("file append succesffully");
 });
@@ -21,6 +21,8 @@ console.log("value is ", exportContent.a)
 // console.log(validator.isEmail(email));
 
 console.log(chalk.bold.red("Hello"))
+
+console.log(process.argv);
 
 
 

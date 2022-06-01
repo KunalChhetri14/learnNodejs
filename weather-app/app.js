@@ -37,13 +37,13 @@ const geocode = (address, callback) => {
     })
 }
 
-geocode('Los%20Angeles', (error, data) => {
+geocode('Hey12askf', (error, data) => {
     // console.log("the data from callback is ", data);
     if(data) {
         console.log("the callback value is ", data);
     }
     if(error) {
-        console.log("The error is ",error);
+        console.log(error);
     }
 })
 
